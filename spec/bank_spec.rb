@@ -48,4 +48,10 @@ describe 'a bank' do
         balance = bank.balance
         expect(balance).to eq 1600
     end
+
+    it 'can print a date of the statement' do
+        bank = Bank.new 
+        statement = bank.statement
+        expect(statement).to eq "14/01/2012"
+    end
 end

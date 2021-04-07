@@ -15,4 +15,8 @@ class Bank
         @balance = @balance - amount
     end
 
+    def statement 
+        "14/01/2012"
+    end
+
 end 
