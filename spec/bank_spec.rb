@@ -51,7 +51,7 @@ describe 'a bank' do
 
     it 'can print a date of the statement' do
         bank = Bank.new 
-        statement = bank.statement
+        statement = bank.statement("14/01/2012")
         expect(statement).to eq "14/01/2012"
     end
 end
